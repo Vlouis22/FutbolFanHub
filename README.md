@@ -1,72 +1,77 @@
-# Getting Started with Create React App
+# Web Development Final Project - FútbolFanHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: Valery Louis
 
-## Available Scripts
+This web app: FútbolFanHub allows you to read post about soccer games and comment under other people's post.
 
-In the project directory, you can run:
+Time spent: 20 hours spent in total
 
-### `npm start`
+## Required Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following **required** functionality is completed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [x] **A create form that allows the user to create posts**
+- [x] **Posts have a title and optionally additional textual content and/or an image added as an external image URL**
+- [x] **A home feed displaying previously created posts**
+- [x] **By default, the time created, title, and number of upvotes for each post is shown on the feed**
+- [x] **Clicking on a post shall direct the user to a new page for the selected post**
+- [x] **Users can sort posts by either their created time or upvotes count**
+- [x] **Users can search for posts by title**
+- [x] **A separate post page for each created post, where any additional information is shown is linked whenever a user clicks a post**
+- [x] **Users can leave comments underneath a post on the post's separate page**
+- [x] **Each post should have an upvote button on the post's page. Each click increases its upvotes count by one and users can upvote any number of times**
+- [x] **A previously created post can be edited or deleted from its post page**
 
-### `npm test`
+The following **optional** features are implemented:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] Users can only edit and deleted posts or delete comments by entering the secret key, which is set by the user during post creation
+- [ ] Upon launching the web app, the user is assigned a random user ID. It will be associated with all posts and comments that they make and displayed on them.
+- [ ] Users can repost a previous post by referencing its post ID. On the post page of the new post, the referenced post is displayed and linked, creating a thread
+- [ ] Users can customize the interface of the web app
+- [x] Users can share and view web videos
+- [ ] Users can set flags while creating a post. Then users can filter posts by flags on the home feed.
+- [ ] Users can upload images directly from their local machine as an image file
+- [x] Display a loading animation whenever data is being fetched
 
-### `npm run build`
+The following **additional** features are implemented:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [ ] List anything else that you added to improve the site's functionality!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Video Walkthrough
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a walkthrough of implemented user stories:
 
-### `npm run eject`
+<div>
+    <a href="https://www.loom.com/share/e2eabdae95fc4ab1a9b18660ba946f56">
+      <p>Loom | Free Screen & Video Recording Software | Loom - 21 April 2024 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/e2eabdae95fc4ab1a9b18660ba946f56">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e2eabdae95fc4ab1a9b18660ba946f56-with-play.gif">
+    </a>
+  </div>
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Notes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Describe any challenges encountered while building the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Copyright [yyyy] [name of copyright owner]
 
-## Learn More
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+        http://www.apache.org/licenses/LICENSE-2.0
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# FutbolFanHub
-# FutbolFanHub-Project
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
